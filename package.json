@@ -1,0 +1,30 @@
+{
+  "name": "vitepress-blog",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Misaki",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "buildtogit": "powershell bin/autoDeploy.bat",
+    "togit": "powershell bin/autoTogit.bat",
+    "filetogit":"powershell bin/autoFileTogit.bat"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@sugarat/theme": "^0.3.4",
+    "element-plus": "^2.7.2",
+    "pagefind": "^1.0.4",
+    "vue": "3.3.13"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vitepress": "1.1.4"
+  }
+}
