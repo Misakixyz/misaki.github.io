@@ -1,3 +1,4 @@
+// 推送到github-pages
 cd docs/.vitepress/dist
 
 git init

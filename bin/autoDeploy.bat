@@ -1,3 +1,4 @@
+// build后推送到github-pages
 call pnpm build
 cd docs/.vitepress/dist
 
