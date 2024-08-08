@@ -10,11 +10,11 @@
     "serve": "vitepress serve docs",
     "buildtogit": "powershell bin/autoDeploy.bat",
     "togit": "powershell bin/autoTogit.bat",
-    "filetogit":"powershell bin/autoFileTogit.bat"
+    "filetogit": "powershell bin/autoFileTogit.bat"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@sugarat/theme": "^0.3.4",
+    "@sugarat/theme": "^0.4.9",
     "element-plus": "^2.7.2",
     "pagefind": "^1.0.4",
     "vue": "3.3.13"
