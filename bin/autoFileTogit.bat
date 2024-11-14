@@ -1,4 +1,4 @@
-// 将原始文件推送到main分支
+@REM // 将原始文件推送到main分支
 git init
 git add -A
 git commit -m "File"
